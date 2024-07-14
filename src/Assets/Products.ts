@@ -1,13 +1,3 @@
-// Category
-import categoryImage from './Category/placeholder.png'
-
-// Icons
-import cartIcon from './icons/cart-icon.png'
-import searchIcon from './icons/search-icon.png'
-
-// Cart page background
-import cart_background from './icons/cart_background.png'
-
 // Product images
 import six_piece_white_dinner_plate_set from './ProductImages/6-piece-white-dinner-plate-set.jpg'
 import adults_plain_cotton_tshirt_two_pack_teal from './ProductImages/adults-plain-cotton-tshirt-2-pack-teal.jpg'
@@ -57,7 +47,6 @@ import rating_50 from './ratings/rating-50.png'
 
 
 export const assets = {
-  categoryImage,
   rating_0,
   rating_05,
   rating_10,
@@ -69,54 +58,10 @@ export const assets = {
   rating_40,
   rating_45,
   rating_50,
-  cartIcon,
-  cart_background,
-  searchIcon,
-  women_stretch_popover_hoodie_black
 }
 
-export const categoryData = [
-  {
-    image: categoryImage,
-    name: 'All'
-  },
-  {
-    image: categoryImage,
-    name: 'Men wears'
-  },
-  {
-    image: categoryImage,
-    name: 'Women wears'
-  },
-  {
-    image: categoryImage,
-    name: 'Foot wears'
-  },
-  {
-    image: categoryImage,
-    name: 'Beddings'
-  },
-  {
-    image: categoryImage,
-    name: 'Kitchen'
-  },
-  {
-    image: categoryImage,
-    name: 'Tissues'
-  },
-  {
-    image: categoryImage,
-    name: 'Accessories'
-  },
-  {
-    image: categoryImage,
-    name: 'Category name'
-  }
-]
-
-
 // 1. We save the data (the information about our product) in to an object put in an array:
-export const product = [
+export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: athletic_cotton_socks_six_pairs,

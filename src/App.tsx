@@ -1,9 +1,11 @@
-function App() {
+import Home from "./Components/Home"
+
+function App () {
 
   return (
-    <>
-      <h1 className="text-sky-700">This my first app with typescript</h1>
-    </>
+    <div className="w-full">
+      <Home />
+    </div>
   )
 }
 
